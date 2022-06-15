@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="content-section">
+    {% for attendance in attendances %}
+    <div class="row g-3">
+        <ul>
+            <li>{{ attendance.user.username }}</li>
+            <li>{{ attendance.check_in }}</li>
+            <li>{{ attendance.check_out }}</li>
+            <li>{{ attendance.duration }}</li>
+        </ul>
+    </div>
+    {% endfor %}
+</div>
+{% endblock content %}
