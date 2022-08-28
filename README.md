@@ -4,6 +4,17 @@
 ## Introduction
 
 - this project is used to track the attendance of the employees of the company.
+- As a new employee, I can register to the system & start using its functionality.
+- Only signed-in employees can log their attendance.
+- As an employee, I can log my new attendance and list the previous attendance records.
+- Each employee lists attendance records related to himself only.
+- Employee can’t log attendance for another employee.
+- Each attendance record shall have check-in & check-out times.
+- Attendance validations:
+    - Check-out can't be before check-in.
+    - you can’t log your check-out before logging the check-in first.
+    - check-out time must be always bigger than check-in time.
+    - User can't create attendance record for the same interval.
 
 ## How to Install the Project
 
